@@ -1,0 +1,45 @@
+@media (max-width: 1024px) {
+    .center{
+        padding-left: calc(50% - 786px/2);
+        padding-right: calc(50% - 786px/2);
+    }
+
+
+    .for{
+        &_item{
+            height: 268px;
+        }
+    }
+
+    .logo_footer{
+        display: none;
+    }
+
+
+    .product_content{
+        gap: 29px;
+
+    }
+
+    .cart{
+        display: flex;
+        flex-direction: column;
+        &_cont{
+            max-width: 786px;
+        }
+        &_form{
+            max-width: 376px;
+        }
+    }
+   
+}
+
+@media (min-width:768px) and (max-width: 833px) {
+    .center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .product{
+        width: 345px;
+    }
+}

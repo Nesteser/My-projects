@@ -1,0 +1,124 @@
+@media (max-width: 767px) {
+    .center{
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+    .heder{
+        padding-top: 32px;
+        .input{
+            display: none;
+        }
+        .menu_heder{
+            display: none;
+        }
+        .menu{
+            display: none;
+            &_mob{
+                display: flex;
+                align-items: center;
+                gap: 32px;
+                
+            }
+        }
+        
+        .logo{
+            &_img{
+                width: 99px;               
+            }
+                      
+        }
+
+
+       }
+    .title{
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+    }  
+    .top_text{
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+    } 
+    .link{
+        text-align: center;
+    }
+    .heading{
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 32px;
+      
+    }
+    .for{
+        display: flex;
+        flex-direction: column;
+    }
+    .for_item {
+        width: 342.7px;
+        height: 374.98px;
+    }
+    .for_item_big{
+        width: 343px;
+        height: 243.78px;
+    }
+    .heading{
+        font-size: 24px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        width: 342.91px;
+        height: 58px;
+    }
+    .img {
+        width: 342.93px;
+        height: 226.21px;
+    }
+    .P1{
+        font-size: 18px;
+       ine-height: 22px;
+    }
+    
+    .P3{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .P4{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .Catalog{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .box_link{
+        margin-bottom: 32px;
+    }
+    .footer_content {
+        display: flex;
+        width: 792px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news{
+        margin-top: 32px;
+    }
+    .menu_catalog{
+        padding-top: 32px;
+    }
+    .menu_cat{
+        padding-bottom: 16px;
+    }
+    .box_link{
+        margin-top: 36px;
+
+    }
+    .cart_img{
+        display: none;
+    }
+    .top .heder{
+        padding-top: 32px;
+    }
+ 
+}
